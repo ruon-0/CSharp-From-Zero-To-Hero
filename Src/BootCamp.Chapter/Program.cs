@@ -29,6 +29,7 @@ namespace BootCamp.Chapter
             Console.WriteLine("\nWell done. Let's see who we got");
             Console.WriteLine(name + " " + surename + " is " + age + " years old, his weight is " + weight
                 + " kg and his height is " + height + " cm.");
+            Console.WriteLine(name + "'s BMI is = " + Math.Round(10000 * (float.Parse(weight) / Math.Pow(float.Parse(height),2)),2));
 
             Console.WriteLine("\nThat was fun, let's do another one!");
             Console.WriteLine("\nPlease put the following information in:");
@@ -47,6 +48,7 @@ namespace BootCamp.Chapter
             Console.WriteLine("\nWell done. Let's see who we got");
             Console.WriteLine("\n" + name + " " + surename + " is " + age + " years old, his weight is " + weight
                 + " kg and his height is " + height + " cm.");
+            Console.WriteLine(name + "'s BMI is = " + Math.Round(10000 * (float.Parse(weight) / Math.Pow(float.Parse(height), 2)), 2));
 
         }
     }
